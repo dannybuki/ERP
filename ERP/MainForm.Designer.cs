@@ -117,6 +117,7 @@ namespace ERP
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(359, 246);
 			this.Controls.Add(this.btn_cancel);
 			this.Controls.Add(this.cmdiniciar);
