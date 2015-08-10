@@ -36,17 +36,39 @@ namespace ERP
 			this.Hide();
 			x.Show();
 		}
-		void Button1Click(object sender, EventArgs e)
+		void Btn_empleadosClick(object sender, EventArgs e)
 		{
 			EmpleadoNuevo x=new EmpleadoNuevo();
 			this.Hide();
 			x.Show();
 		}
-		void PictureBox1Click(object sender, EventArgs e)
+		void PantallaPrincipalLoad(object sender, EventArgs e)
 		{
-			MainForm x=new MainForm();
+	
+		}
+		void Btn_ventaClick(object sender, EventArgs e)
+		{
+			construccion c=new construccion();
 			this.Hide();
-			x.Show();
+			c.Show();
+		}
+		void Btn_inventarioClick(object sender, EventArgs e)
+		{
+			construccion c=new construccion();
+			this.Hide();
+			c.Show();
+		}
+		void Btn_proveedoresClick(object sender, EventArgs e)
+		{
+			construccion c=new construccion();
+			this.Hide();
+			c.Show();
+		}
+		void Btn_clientesClick(object sender, EventArgs e)
+		{
+			construccion c=new construccion();
+			this.Hide();
+			c.Show();
 		}
 		
 	}

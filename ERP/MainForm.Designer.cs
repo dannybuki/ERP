@@ -109,6 +109,7 @@ namespace ERP
 			this.btn_cancel.TabIndex = 5;
 			this.btn_cancel.Text = "Cerrar";
 			this.btn_cancel.UseVisualStyleBackColor = true;
+			this.btn_cancel.Click += new System.EventHandler(this.Btn_cancelClick);
 			// 
 			// MainForm
 			// 
@@ -128,6 +129,7 @@ namespace ERP
 			this.MaximumSize = new System.Drawing.Size(375, 285);
 			this.Name = "MainForm";
 			this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "ERP";
 			this.ResumeLayout(false);
 			this.PerformLayout();

@@ -17,8 +17,11 @@ namespace ERP
 		private System.Windows.Forms.Button cmdregresar;
 		private System.Windows.Forms.Label lblpaleteria;
 		private System.Windows.Forms.Label lblicepro;
+		private System.Windows.Forms.Button btn_empleados;
+		private System.Windows.Forms.Button btn_proveedores;
+		private System.Windows.Forms.Button btn_inventario;
+		private System.Windows.Forms.Button btn_venta;
 		private System.Windows.Forms.Button btn_clientes;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -45,17 +48,22 @@ namespace ERP
 			this.cmdregresar = new System.Windows.Forms.Button();
 			this.lblpaleteria = new System.Windows.Forms.Label();
 			this.lblicepro = new System.Windows.Forms.Label();
+			this.btn_empleados = new System.Windows.Forms.Button();
+			this.btn_proveedores = new System.Windows.Forms.Button();
+			this.btn_inventario = new System.Windows.Forms.Button();
+			this.btn_venta = new System.Windows.Forms.Button();
 			this.btn_clientes = new System.Windows.Forms.Button();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// cmdregresar
 			// 
+			this.cmdregresar.AutoSize = true;
+			this.cmdregresar.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.cmdregresar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cmdregresar.Location = new System.Drawing.Point(658, 505);
+			this.cmdregresar.Location = new System.Drawing.Point(0, 554);
+			this.cmdregresar.MaximumSize = new System.Drawing.Size(90, 29);
 			this.cmdregresar.Name = "cmdregresar";
-			this.cmdregresar.Size = new System.Drawing.Size(90, 28);
+			this.cmdregresar.Size = new System.Drawing.Size(90, 29);
 			this.cmdregresar.TabIndex = 0;
 			this.cmdregresar.Text = "Sign Out";
 			this.cmdregresar.UseVisualStyleBackColor = true;
@@ -63,70 +71,120 @@ namespace ERP
 			// 
 			// lblpaleteria
 			// 
+			this.lblpaleteria.AutoSize = true;
 			this.lblpaleteria.BackColor = System.Drawing.Color.Transparent;
+			this.lblpaleteria.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lblpaleteria.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblpaleteria.ForeColor = System.Drawing.Color.Chocolate;
-			this.lblpaleteria.Location = new System.Drawing.Point(172, 9);
+			this.lblpaleteria.Location = new System.Drawing.Point(0, 0);
 			this.lblpaleteria.Name = "lblpaleteria";
-			this.lblpaleteria.Size = new System.Drawing.Size(409, 47);
+			this.lblpaleteria.Size = new System.Drawing.Size(382, 41);
 			this.lblpaleteria.TabIndex = 1;
 			this.lblpaleteria.Text = "Paleteria Loma Bonita";
 			this.lblpaleteria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lblicepro
 			// 
+			this.lblicepro.AutoSize = true;
 			this.lblicepro.BackColor = System.Drawing.Color.Transparent;
+			this.lblicepro.Dock = System.Windows.Forms.DockStyle.Right;
 			this.lblicepro.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblicepro.ForeColor = System.Drawing.Color.Sienna;
-			this.lblicepro.Location = new System.Drawing.Point(658, 227);
+			this.lblicepro.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.lblicepro.Location = new System.Drawing.Point(613, 0);
 			this.lblicepro.Name = "lblicepro";
-			this.lblicepro.Size = new System.Drawing.Size(114, 64);
+			this.lblicepro.Size = new System.Drawing.Size(171, 40);
 			this.lblicepro.TabIndex = 2;
 			this.lblicepro.Text = "ICEPRO v1.0";
+			this.lblicepro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.lblicepro.UseCompatibleTextRendering = true;
+			// 
+			// btn_empleados
+			// 
+			this.btn_empleados.AutoSize = true;
+			this.btn_empleados.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_empleados.Location = new System.Drawing.Point(25, 70);
+			this.btn_empleados.Name = "btn_empleados";
+			this.btn_empleados.Size = new System.Drawing.Size(154, 61);
+			this.btn_empleados.TabIndex = 3;
+			this.btn_empleados.Text = "EMPLEADOS";
+			this.btn_empleados.UseVisualStyleBackColor = true;
+			this.btn_empleados.Click += new System.EventHandler(this.Btn_empleadosClick);
+			// 
+			// btn_proveedores
+			// 
+			this.btn_proveedores.AutoSize = true;
+			this.btn_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_proveedores.Location = new System.Drawing.Point(25, 204);
+			this.btn_proveedores.Name = "btn_proveedores";
+			this.btn_proveedores.Size = new System.Drawing.Size(154, 61);
+			this.btn_proveedores.TabIndex = 6;
+			this.btn_proveedores.Text = "PROVEEDORES";
+			this.btn_proveedores.UseVisualStyleBackColor = true;
+			this.btn_proveedores.Click += new System.EventHandler(this.Btn_proveedoresClick);
+			// 
+			// btn_inventario
+			// 
+			this.btn_inventario.AutoSize = true;
+			this.btn_inventario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_inventario.Location = new System.Drawing.Point(25, 271);
+			this.btn_inventario.Name = "btn_inventario";
+			this.btn_inventario.Size = new System.Drawing.Size(154, 61);
+			this.btn_inventario.TabIndex = 7;
+			this.btn_inventario.Text = "INVENTARIO";
+			this.btn_inventario.UseVisualStyleBackColor = true;
+			this.btn_inventario.Click += new System.EventHandler(this.Btn_inventarioClick);
+			// 
+			// btn_venta
+			// 
+			this.btn_venta.AutoSize = true;
+			this.btn_venta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_venta.Location = new System.Drawing.Point(25, 338);
+			this.btn_venta.Name = "btn_venta";
+			this.btn_venta.Size = new System.Drawing.Size(154, 60);
+			this.btn_venta.TabIndex = 8;
+			this.btn_venta.Text = "VENTA";
+			this.btn_venta.UseVisualStyleBackColor = true;
+			this.btn_venta.Click += new System.EventHandler(this.Btn_ventaClick);
 			// 
 			// btn_clientes
 			// 
 			this.btn_clientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_clientes.Location = new System.Drawing.Point(25, 70);
+			this.btn_clientes.Location = new System.Drawing.Point(25, 138);
 			this.btn_clientes.Name = "btn_clientes";
-			this.btn_clientes.Size = new System.Drawing.Size(154, 61);
-			this.btn_clientes.TabIndex = 3;
-			this.btn_clientes.Text = "EMPLEADOS";
+			this.btn_clientes.Size = new System.Drawing.Size(154, 60);
+			this.btn_clientes.TabIndex = 9;
+			this.btn_clientes.Text = "CLIENTES";
 			this.btn_clientes.UseVisualStyleBackColor = true;
-			this.btn_clientes.Click += new System.EventHandler(this.Button1Click);
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(25, 227);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(166, 135);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox1.TabIndex = 4;
-			this.pictureBox1.TabStop = false;
-			this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
+			this.btn_clientes.Click += new System.EventHandler(this.Btn_clientesClick);
 			// 
 			// PantallaPrincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.FloralWhite;
+			this.AutoSize = true;
+			this.BackColor = System.Drawing.Color.AliceBlue;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ClientSize = new System.Drawing.Size(784, 583);
-			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.btn_clientes);
+			this.Controls.Add(this.btn_venta);
+			this.Controls.Add(this.btn_inventario);
+			this.Controls.Add(this.btn_proveedores);
+			this.Controls.Add(this.btn_empleados);
 			this.Controls.Add(this.lblicepro);
 			this.Controls.Add(this.lblpaleteria);
 			this.Controls.Add(this.cmdregresar);
 			this.DoubleBuffered = true;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.MinimumSize = new System.Drawing.Size(800, 599);
+			this.MinimumSize = new System.Drawing.Size(800, 600);
 			this.Name = "PantallaPrincipal";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
 			this.Text = "PantallaPrincipal";
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+			this.Load += new System.EventHandler(this.PantallaPrincipalLoad);
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 	}

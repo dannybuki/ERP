@@ -73,5 +73,9 @@ namespace ERP
 				MessageBox.Show("Las contraseñas no son iguales.");
 			}
 		}
+		void EmpleadoNuevoLoad(object sender, EventArgs e)
+		{
+	
+		}
 	}
 }

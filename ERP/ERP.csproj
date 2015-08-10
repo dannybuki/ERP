@@ -51,6 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="construccion.cs" />
+    <Compile Include="construccion.Designer.cs">
+      <DependentUpon>construccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmpleadoNuevo.cs" />
     <Compile Include="EmpleadoNuevo.Designer.cs">
       <DependentUpon>EmpleadoNuevo.cs</DependentUpon>
@@ -65,11 +69,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="venta.cs" />
+    <Compile Include="venta.Designer.cs">
+      <DependentUpon>venta.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="construccion.resx">
+      <DependentUpon>construccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmpleadoNuevo.resx">
       <DependentUpon>EmpleadoNuevo.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal.resx">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venta.resx">
+      <DependentUpon>venta.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

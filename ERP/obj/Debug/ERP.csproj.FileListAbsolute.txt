@@ -26,3 +26,6 @@ C:\Users\Pablo\Desktop\ERP\ERP\obj\Debug\ERP.csproj.GenerateResource.Cache
 C:\Users\Pablo\Desktop\ERP\ERP\obj\Debug\ERP.exe
 C:\Users\Pablo\Desktop\ERP\ERP\obj\Debug\ERP.pdb
 C:\Users\Pablo\Desktop\ERP\ERP\obj\Debug\ERP.EmpleadoNuevo.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.EmpleadoNuevo.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.venta.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.construccion.resources
