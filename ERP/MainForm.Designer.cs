@@ -130,7 +130,7 @@ namespace ERP
 			this.MaximumSize = new System.Drawing.Size(375, 285);
 			this.Name = "MainForm";
 			this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "ERP";
 			this.ResumeLayout(false);
 			this.PerformLayout();

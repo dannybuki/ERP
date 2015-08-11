@@ -57,10 +57,10 @@ namespace ERP
 			// 
 			// cmdregresar
 			// 
+			this.cmdregresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.cmdregresar.AutoSize = true;
-			this.cmdregresar.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.cmdregresar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cmdregresar.Location = new System.Drawing.Point(0, 554);
+			this.cmdregresar.Location = new System.Drawing.Point(694, 43);
 			this.cmdregresar.MaximumSize = new System.Drawing.Size(90, 29);
 			this.cmdregresar.Name = "cmdregresar";
 			this.cmdregresar.Size = new System.Drawing.Size(90, 29);
@@ -85,9 +85,9 @@ namespace ERP
 			// 
 			// lblicepro
 			// 
+			this.lblicepro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblicepro.AutoSize = true;
 			this.lblicepro.BackColor = System.Drawing.Color.Transparent;
-			this.lblicepro.Dock = System.Windows.Forms.DockStyle.Right;
 			this.lblicepro.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblicepro.ForeColor = System.Drawing.Color.Sienna;
 			this.lblicepro.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -101,9 +101,10 @@ namespace ERP
 			// 
 			// btn_empleados
 			// 
+			this.btn_empleados.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btn_empleados.AutoSize = true;
 			this.btn_empleados.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_empleados.Location = new System.Drawing.Point(25, 70);
+			this.btn_empleados.Location = new System.Drawing.Point(25, 121);
 			this.btn_empleados.Name = "btn_empleados";
 			this.btn_empleados.Size = new System.Drawing.Size(154, 61);
 			this.btn_empleados.TabIndex = 3;
@@ -113,9 +114,10 @@ namespace ERP
 			// 
 			// btn_proveedores
 			// 
+			this.btn_proveedores.Anchor = System.Windows.Forms.AnchorStyles.Right;
 			this.btn_proveedores.AutoSize = true;
 			this.btn_proveedores.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_proveedores.Location = new System.Drawing.Point(25, 204);
+			this.btn_proveedores.Location = new System.Drawing.Point(613, 187);
 			this.btn_proveedores.Name = "btn_proveedores";
 			this.btn_proveedores.Size = new System.Drawing.Size(154, 61);
 			this.btn_proveedores.TabIndex = 6;
@@ -125,9 +127,10 @@ namespace ERP
 			// 
 			// btn_inventario
 			// 
+			this.btn_inventario.Anchor = System.Windows.Forms.AnchorStyles.Right;
 			this.btn_inventario.AutoSize = true;
 			this.btn_inventario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_inventario.Location = new System.Drawing.Point(25, 271);
+			this.btn_inventario.Location = new System.Drawing.Point(613, 254);
 			this.btn_inventario.Name = "btn_inventario";
 			this.btn_inventario.Size = new System.Drawing.Size(154, 61);
 			this.btn_inventario.TabIndex = 7;
@@ -137,9 +140,10 @@ namespace ERP
 			// 
 			// btn_venta
 			// 
+			this.btn_venta.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btn_venta.AutoSize = true;
 			this.btn_venta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_venta.Location = new System.Drawing.Point(25, 338);
+			this.btn_venta.Location = new System.Drawing.Point(25, 254);
 			this.btn_venta.Name = "btn_venta";
 			this.btn_venta.Size = new System.Drawing.Size(154, 60);
 			this.btn_venta.TabIndex = 8;
@@ -149,8 +153,10 @@ namespace ERP
 			// 
 			// btn_clientes
 			// 
+			this.btn_clientes.Anchor = System.Windows.Forms.AnchorStyles.Right;
+			this.btn_clientes.AutoSize = true;
 			this.btn_clientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btn_clientes.Location = new System.Drawing.Point(25, 138);
+			this.btn_clientes.Location = new System.Drawing.Point(613, 121);
 			this.btn_clientes.Name = "btn_clientes";
 			this.btn_clientes.Size = new System.Drawing.Size(154, 60);
 			this.btn_clientes.TabIndex = 9;
@@ -166,7 +172,7 @@ namespace ERP
 			this.BackColor = System.Drawing.Color.AliceBlue;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.ClientSize = new System.Drawing.Size(784, 583);
+			this.ClientSize = new System.Drawing.Size(784, 562);
 			this.Controls.Add(this.btn_clientes);
 			this.Controls.Add(this.btn_venta);
 			this.Controls.Add(this.btn_inventario);
@@ -179,7 +185,7 @@ namespace ERP
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MinimumSize = new System.Drawing.Size(800, 600);
 			this.Name = "PantallaPrincipal";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "PantallaPrincipal";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.Load += new System.EventHandler(this.PantallaPrincipalLoad);

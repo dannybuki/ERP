@@ -61,10 +61,11 @@ namespace ERP
 			// 
 			// label1
 			// 
+			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(14, 10);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(444, 33);
+			this.label1.Size = new System.Drawing.Size(232, 25);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Paletería Loma Bonita";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,6 +88,7 @@ namespace ERP
 			this.txtnombre.Name = "txtnombre";
 			this.txtnombre.Size = new System.Drawing.Size(333, 33);
 			this.txtnombre.TabIndex = 2;
+			this.txtnombre.TextChanged += new System.EventHandler(this.TxtnombreTextChanged);
 			// 
 			// txtpass
 			// 
@@ -110,13 +112,12 @@ namespace ERP
 			// 
 			// cmdguardar
 			// 
-			this.cmdguardar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-			| System.Windows.Forms.AnchorStyles.Left) 
+			this.cmdguardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
 			| System.Windows.Forms.AnchorStyles.Right)));
 			this.cmdguardar.AutoSize = true;
 			this.cmdguardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.cmdguardar.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cmdguardar.Location = new System.Drawing.Point(415, 248);
+			this.cmdguardar.Location = new System.Drawing.Point(481, 196);
 			this.cmdguardar.Name = "cmdguardar";
 			this.cmdguardar.Size = new System.Drawing.Size(109, 35);
 			this.cmdguardar.TabIndex = 5;
@@ -126,13 +127,12 @@ namespace ERP
 			// 
 			// cmdnuevo
 			// 
-			this.cmdnuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-			| System.Windows.Forms.AnchorStyles.Left) 
+			this.cmdnuevo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
 			| System.Windows.Forms.AnchorStyles.Right)));
 			this.cmdnuevo.AutoSize = true;
 			this.cmdnuevo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.cmdnuevo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cmdnuevo.Location = new System.Drawing.Point(219, 248);
+			this.cmdnuevo.Location = new System.Drawing.Point(285, 196);
 			this.cmdnuevo.Name = "cmdnuevo";
 			this.cmdnuevo.Size = new System.Drawing.Size(89, 35);
 			this.cmdnuevo.TabIndex = 6;
@@ -142,13 +142,12 @@ namespace ERP
 			// 
 			// button1
 			// 
-			this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-			| System.Windows.Forms.AnchorStyles.Left) 
+			this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
 			| System.Windows.Forms.AnchorStyles.Right)));
 			this.button1.AutoSize = true;
 			this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.button1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(14, 248);
+			this.button1.Location = new System.Drawing.Point(80, 196);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(111, 35);
 			this.button1.TabIndex = 7;

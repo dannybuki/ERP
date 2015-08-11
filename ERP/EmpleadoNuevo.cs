@@ -77,5 +77,9 @@ namespace ERP
 		{
 	
 		}
+		void TxtnombreTextChanged(object sender, EventArgs e)
+		{
+	
+		}
 	}
 }

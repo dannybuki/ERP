@@ -48,7 +48,7 @@ namespace ERP
 		}
 		void Btn_ventaClick(object sender, EventArgs e)
 		{
-			construccion c=new construccion();
+			VentaNew c=new VentaNew();
 			this.Hide();
 			c.Show();
 		}
