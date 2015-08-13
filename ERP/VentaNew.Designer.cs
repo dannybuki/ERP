@@ -153,7 +153,6 @@ namespace ERP
 			this.groupBox1.Size = new System.Drawing.Size(240, 122);
 			this.groupBox1.TabIndex = 6;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "groupBox1";
 			// 
 			// label4
 			// 
@@ -185,7 +184,6 @@ namespace ERP
 			this.groupBox2.Size = new System.Drawing.Size(515, 248);
 			this.groupBox2.TabIndex = 7;
 			this.groupBox2.TabStop = false;
-			this.groupBox2.Text = "groupBox2";
 			this.groupBox2.Enter += new System.EventHandler(this.GroupBox2Enter);
 			// 
 			// total
@@ -239,7 +237,7 @@ namespace ERP
 			this.txtsubtotal.Location = new System.Drawing.Point(209, 105);
 			this.txtsubtotal.MinimumSize = new System.Drawing.Size(300, 30);
 			this.txtsubtotal.Name = "txtsubtotal";
-			this.txtsubtotal.Size = new System.Drawing.Size(300, 30);
+			this.txtsubtotal.Size = new System.Drawing.Size(300, 20);
 			this.txtsubtotal.TabIndex = 10;
 			this.txtsubtotal.TextChanged += new System.EventHandler(this.TxtsubtotalTextChanged);
 			// 
