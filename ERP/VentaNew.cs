@@ -84,6 +84,10 @@ namespace ERP
 		{
 	
 		}
+		void TextBox1TextChanged(object sender, EventArgs e)
+		{
+	
+		}
 		
 	}
 }

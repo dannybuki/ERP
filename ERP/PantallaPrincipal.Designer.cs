@@ -95,9 +95,10 @@ namespace ERP
 			this.lblicepro.Name = "lblicepro";
 			this.lblicepro.Size = new System.Drawing.Size(171, 40);
 			this.lblicepro.TabIndex = 2;
-			this.lblicepro.Text = "ICEPRO v1.0";
+			this.lblicepro.Text = "ICEPRO v1.4";
 			this.lblicepro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.lblicepro.UseCompatibleTextRendering = true;
+			this.lblicepro.Click += new System.EventHandler(this.LbliceproClick);
 			// 
 			// btn_empleados
 			// 
@@ -166,8 +167,7 @@ namespace ERP
 			// 
 			// PantallaPrincipal
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
 			this.AutoSize = true;
 			this.BackColor = System.Drawing.Color.AliceBlue;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));

@@ -66,9 +66,13 @@ namespace ERP
 		}
 		void Btn_clientesClick(object sender, EventArgs e)
 		{
-			construccion c=new construccion();
+			clientes c=new clientes();
 			this.Hide();
 			c.Show();
+		}
+		void LbliceproClick(object sender, EventArgs e)
+		{
+	
 		}
 		
 	}

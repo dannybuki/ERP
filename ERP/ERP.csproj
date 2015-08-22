@@ -51,9 +51,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarClientes.cs" />
+    <Compile Include="AgregarClientes.Designer.cs">
+      <DependentUpon>AgregarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarClientes.cs" />
+    <Compile Include="BuscarClientes.Designer.cs">
+      <DependentUpon>BuscarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientes.cs" />
+    <Compile Include="clientes.Designer.cs">
+      <DependentUpon>clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="construccion.cs" />
     <Compile Include="construccion.Designer.cs">
       <DependentUpon>construccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarClientes.cs" />
+    <Compile Include="EliminarClientes.Designer.cs">
+      <DependentUpon>EliminarClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="EmpleadoNuevo.cs" />
     <Compile Include="EmpleadoNuevo.Designer.cs">
@@ -62,6 +78,10 @@
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarClientes.cs" />
+    <Compile Include="ModificarClientes.Designer.cs">
+      <DependentUpon>ModificarClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaPrincipal.cs" />
     <Compile Include="PantallaPrincipal.Designer.cs">
@@ -78,14 +98,29 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AgregarClientes.resx">
+      <DependentUpon>AgregarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarClientes.resx">
+      <DependentUpon>BuscarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientes.resx">
+      <DependentUpon>clientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="construccion.resx">
       <DependentUpon>construccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarClientes.resx">
+      <DependentUpon>EliminarClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmpleadoNuevo.resx">
       <DependentUpon>EmpleadoNuevo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarClientes.resx">
+      <DependentUpon>ModificarClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal.resx">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>

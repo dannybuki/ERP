@@ -189,7 +189,7 @@ namespace ERP
 			// total
 			// 
 			this.total.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.total.Location = new System.Drawing.Point(103, 200);
+			this.total.Location = new System.Drawing.Point(103, 194);
 			this.total.Name = "total";
 			this.total.Size = new System.Drawing.Size(100, 23);
 			this.total.TabIndex = 15;
@@ -199,7 +199,7 @@ namespace ERP
 			// label7
 			// 
 			this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.Location = new System.Drawing.Point(103, 156);
+			this.label7.Location = new System.Drawing.Point(103, 149);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(100, 23);
 			this.label7.TabIndex = 14;
@@ -218,14 +218,14 @@ namespace ERP
 			// 
 			// txtiva
 			// 
-			this.txtiva.Location = new System.Drawing.Point(209, 161);
+			this.txtiva.Location = new System.Drawing.Point(209, 199);
 			this.txtiva.Name = "txtiva";
 			this.txtiva.Size = new System.Drawing.Size(300, 20);
 			this.txtiva.TabIndex = 12;
 			// 
 			// txtTotal
 			// 
-			this.txtTotal.Location = new System.Drawing.Point(209, 200);
+			this.txtTotal.Location = new System.Drawing.Point(209, 98);
 			this.txtTotal.MinimumSize = new System.Drawing.Size(300, 30);
 			this.txtTotal.Name = "txtTotal";
 			this.txtTotal.Size = new System.Drawing.Size(300, 20);
@@ -234,7 +234,7 @@ namespace ERP
 			// 
 			// txtsubtotal
 			// 
-			this.txtsubtotal.Location = new System.Drawing.Point(209, 105);
+			this.txtsubtotal.Location = new System.Drawing.Point(209, 149);
 			this.txtsubtotal.MinimumSize = new System.Drawing.Size(300, 30);
 			this.txtsubtotal.Name = "txtsubtotal";
 			this.txtsubtotal.Size = new System.Drawing.Size(300, 20);
@@ -244,7 +244,7 @@ namespace ERP
 			// textBox2
 			// 
 			this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox2.Location = new System.Drawing.Point(209, 52);
+			this.textBox2.Location = new System.Drawing.Point(209, 53);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(300, 31);
 			this.textBox2.TabIndex = 9;
@@ -256,6 +256,7 @@ namespace ERP
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(300, 31);
 			this.textBox1.TabIndex = 8;
+			this.textBox1.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
 			// 
 			// label5
 			// 

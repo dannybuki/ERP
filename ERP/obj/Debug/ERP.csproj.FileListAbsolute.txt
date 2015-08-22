@@ -29,3 +29,8 @@ C:\Users\Pablo\Desktop\ERP\ERP\obj\Debug\ERP.EmpleadoNuevo.resources
 C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.EmpleadoNuevo.resources
 C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.construccion.resources
 C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.VentaNew.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.clientes.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.AgregarClientes.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.BuscarClientes.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.ModificarClientes.resources
+C:\Users\Daniel Rivas\ERP\ERP\obj\Debug\ERP.EliminarClientes.resources
